@@ -84,7 +84,8 @@ public class TC002 {
         if (!newsletterYes.isSelected()) {
         	newsletterYes.click();
             System.out.println("Newsletter 'Yes' selected");
-        } else {
+        } 
+        else {
         	System.out.println("Newsletter 'Yes' already selected");
         }
         WebElement privacyPolicy = driver.findElement(By.name("agree"));
