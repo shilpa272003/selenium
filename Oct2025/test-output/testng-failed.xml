@@ -3,20 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pac1.TC009_TestNG">
+      <class name="pac1.lab11">
         <methods>
-          <include name="test2"/>
-          <include name="beforeMethod"/>
-          <include name="f"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="afterSuite"/>
           <include name="beforeSuite"/>
-          <include name="afterTest"/>
           <include name="afterClass"/>
+          <include name="teardown"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="loginTestUsingPOM" invocation-numbers="1"/>
+          <include name="loginTestUsingPageFactory" invocation-numbers="1"/>
         </methods>
-      </class> <!-- pac1.TC009_TestNG -->
+      </class> <!-- pac1.lab11 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
