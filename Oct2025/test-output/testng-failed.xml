@@ -3,20 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pac1.lab11">
+      <class name="com.meesho.tests.SearchAndAddToCartTest">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="teardown"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="searchSortAddToCart"/>
           <include name="setup"/>
-          <include name="beforeClass"/>
-          <include name="afterTest"/>
-          <include name="loginTestUsingPOM" invocation-numbers="1"/>
-          <include name="loginTestUsingPageFactory" invocation-numbers="1"/>
+          <include name="setupReport"/>
+          <include name="tearDownReport"/>
         </methods>
-      </class> <!-- pac1.lab11 -->
+      </class> <!-- com.meesho.tests.SearchAndAddToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
